@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Online Job Application Form</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for ="fname">Full name</label>
+            <Input type="text" name="fname" id="fname" required></Input>
+            <br><br>
+            <label for="IDName">National ID Number</label>
+            <Input type="number" name="IDName" id="IDName" required></Input>
+            <br><br>
+            <label for="email">Email</label>
+            <Input type="email" name="email" id="email" required></Input>
+            <br><br>
+            <label for="phone">Phone Number</label>
+            <Input type="number" name="phone" id="phone" required></Input>
+             <br><br>
+             <label for="dob">Date of birth:</label><br>
+            <Input type="date" name="dob" id="dob" required></Input>
+            <br><br>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male"> Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female"> Female</label>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other"> Other </label>
+        </fieldset>
+        <br><br>
+        
+        <fieldset>
+            <legend> Job Information</legend>
+            <label for ="Position Applied for">Position Applied for:</label><br>
+            <select id="Position Applied for " name="Position Applied for">
+            <option value="Software Developer" selected>Software Developer</option>
+            <option value="Web Designer">Web Designer</option>
+            <option value="Network Engineer">Network Engineer</option>
+            <option value="Database Administrator">Database Administrator</option>
+            <option value="IT Support Engineer">IT Support Engineer</option>
+            
+            </select>
+            <br><br>
+
+            
+            <label for ="Experience Level">Experience Level:</label><br>
+            <select id="Experience Level " name="Experience Level">
+            <option value="Fresher" selected>Fresher</option>
+            <option value="1-2 Years">1-2 Years</option>
+            <option value="3-5 Years">3-5 Years</option>
+            <option value="More than 5 Years">More than 5 Years</option>
+            
+            </select>
+            <br><br>
+
+            <fieldset>
+        <legend> Selected Technical Skills</legend>
+        <input type="checkbox" id="html" name="language" value=" HTML">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="language" value=" CSS">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="javascript" name="language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+        <input type="checkbox" id="python" name="language" value="Python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="sql" name="language" value="SQL">
+        <label for="sql">SQL</label><br>
+
+      </fieldset> 
+            <br><br>
+
+            <label for ="Qualification ">Highest Qualification :</label><br>
+            <select id="Qualification " name=" Qualification ">
+            <option value="BSc">BSc </option>
+            <option value="Msc">MSc</option>
+            <option value="Diploma">Diploma</option>
+            <option value="HSC">HSC</option>
+            <option value="SSC">SSC</option>
+           
+
+             </select>
+            <br><br>
+
+            <label for ="uname">University name</label>
+            <Input type="text" name="uname" id="uname" required></Input>
+            <br><br>
+
+            <label for ="Graduation Year">Graduation Year </label>
+            <select id="year" name="year">
+            <option value="2025">2025 </option>
+            <option value="2024">2024</option>
+            <option value="2022">2022</option>
+            <option value="2021"> 2021</option>
+            </select>
+            <br></br>
+<fieldset>
+    <legend> Additional Information</legend>
+            <label for="cv">Upload Resume/CV:</label><br>
+            <input type="file" id="cv" name="cv">
+            <br><br>
+            <label for="letter">Cover letter:</label><br>
+            <input type="file" id="letter" name="letter">
+            <br><br>
+            <label for="address"> Current Address:</label>
+            <textarea id="address" name="address" rows="4" cols="40"></textarea>
+            <br><br>
+ </fieldset>
+
+            <br><br>
+
+            <input type="Submit" value="Submit">
+            <input type="Reset" value="Reset">
+
+
+
+
+        </fieldset>
+</body>
+</html>
