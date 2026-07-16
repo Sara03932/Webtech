@@ -1,0 +1,45 @@
+body{
+    background-color: lightblue;
+}
+
+/* h1{
+    color: blueviolet;
+    text-align:center ;
+}
+
+#para1{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+color: darkblue;
+text-align:center;
+}
+
+.center {
+  text-align: center;
+  color: red;
+}
+
+p.center{
+    text-align: left;
+    color: blueviolet;
+} */
+
+/* universal selector */
+/* * {
+  text-align: center;
+  color: rgb(136, 12, 12);
+} */
+/* 
+h1,h2,p{
+    text-align: center;
+    color:brown;
+} */
+
+/* #intro{
+    font-size: 20px;
+}
+.highlight{
+    background-color: yellow;
+}
+p{
+    color: dimgray;
+} */
